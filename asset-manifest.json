@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/zeromastery/static/css/main.a59cd099.chunk.css",
+    "main.js": "/zeromastery/static/js/main.4f766e96.chunk.js",
+    "main.js.map": "/zeromastery/static/js/main.4f766e96.chunk.js.map",
+    "runtime-main.js": "/zeromastery/static/js/runtime-main.6fb46467.js",
+    "runtime-main.js.map": "/zeromastery/static/js/runtime-main.6fb46467.js.map",
+    "static/js/2.052249c6.chunk.js": "/zeromastery/static/js/2.052249c6.chunk.js",
+    "static/js/2.052249c6.chunk.js.map": "/zeromastery/static/js/2.052249c6.chunk.js.map",
+    "static/js/3.7cb65426.chunk.js": "/zeromastery/static/js/3.7cb65426.chunk.js",
+    "static/js/3.7cb65426.chunk.js.map": "/zeromastery/static/js/3.7cb65426.chunk.js.map",
+    "index.html": "/zeromastery/index.html",
+    "static/css/main.a59cd099.chunk.css.map": "/zeromastery/static/css/main.a59cd099.chunk.css.map",
+    "static/js/2.052249c6.chunk.js.LICENSE.txt": "/zeromastery/static/js/2.052249c6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6fb46467.js",
+    "static/js/2.052249c6.chunk.js",
+    "static/css/main.a59cd099.chunk.css",
+    "static/js/main.4f766e96.chunk.js"
+  ]
+}
