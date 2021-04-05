@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import "./App.css";
 import { within } from "@testing-library/dom";
 import { CardList } from "./components/card-list/card-list.component";
+import { SearchBox } from './components/search-box/search-box.component'
 
 class App extends Component {
   constructor() {
@@ -18,19 +19,14 @@ class App extends Component {
       .then((users) => this.setState({ monsters: users }));
   }
   render() {
-    const { monsters, searchField } = this.state;
+    const { monsters, searchField } = this.state;    
     const filterMonsters = monsters.filter((monster) =>
       monster.name.toLowerCase().includes(searchField.toLowerCase())
     );
     return (
       <div className="App">
-        <input
-          type="search"
-          placeholder="search monsters"
-          onChange={(e) => {
-            this.setState({ searchField: e.target.value });
-          }}
-        />
+
+<SearchBox placeholder='search monsters' handleChange={e=> this.setState({searchField:e.target.value})}></SearchBox>
         <CardList monsters={filterMonsters}></CardList>
       </div>
     );
